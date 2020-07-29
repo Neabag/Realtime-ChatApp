@@ -1,0 +1,9 @@
+<div #scroller class="feedWrapper" (scroll)=scrollHandler()>
+  <div *ngFor="let message of feed " class="message">
+    <app-message [chatMessage]=message></app-message>
+  </div>
+</div>
+<div class="chatForm">
+  <input class="chatInput" [(ngModel)]="message" (keydown)="handleSubmit($event)" />
+  <button class="chatButton" (click)=send()>Send</button>
+</div>
