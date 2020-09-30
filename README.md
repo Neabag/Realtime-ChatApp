@@ -1,2 +1,2 @@
 
-## check the demo [here] https://letschatdotcom.netlify.app/login
+## check the demo [here] (https://letschatdotcom.netlify.app)
